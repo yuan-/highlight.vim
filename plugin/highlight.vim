@@ -289,4 +289,12 @@ endfunction
 call s:HighlightInitL()
 call s:HighlightInitP()
 
+function! s:ReInitHighlight()
+   call s:HighlightInitL()
+   call s:HighlightInitP()
+endfunction
+
+
+
+autocmd Syntax,ColorScheme * call <SID>ReInitHighlight()
 
