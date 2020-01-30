@@ -63,7 +63,7 @@ noremap  <silent> <C-h><C-a> :call <SID>Highlight("a")<CR>
 noremap  <silent> <C-h><C-r> :call <SID>Highlight("r")<CR>
 
 " Highlight word under cursor (whole word match)
-noremap  <silent> <C-h><C-w> :call <SID>Highlight("w") \| nohls<CR>
+"noremap  <silent> <C-h><C-w> :call <SID>Highlight("w") \| nohls<CR>
 " Highlight all lines having word under cursor (whole word match)
 noremap  <silent> <C-h><C-l> :call <SID>Highlight("l") \| nohls<CR>
 " Highlight word under cursor (partial word match)
@@ -84,7 +84,7 @@ noremap  <silent> <C-h><C-n> :call <SID>Highlight("n")<CR>
 " -- Insert mode mappings --
 
 " Highlight current line 
-inoremap <silent> <C-h><C-h> <C-o>:call <SID>Highlight("h")<CR>
+"inoremap <silent> <C-h><C-h> <C-o>:call <SID>Highlight("h")<CR>
 " Advance color for next line highlight
 inoremap <silent> <C-h><C-a> <C-o>:call <SID>Highlight("a")<CR>
 " Clear last line highlight
